@@ -1,0 +1,16 @@
+:root{
+  --primary:#5b48fb;
+  --accent:#f0b90b;
+  --bg:#0f1226;
+  --text:#f6f7fb;
+  --dark:#0b0d1a;
+}
+/* Helpful utilities for non-tailwind bits */
+.price-was{ text-decoration: line-through; color:#98a2b3;}
+.card{ background:white;}
+.product-img{ display:block;}
+.badge{ box-shadow: 0 2px 6px rgba(0,0,0,.15);}
+.badge--primary{ background: var(--primary); color:white;}
+.badge--sale{ background: var(--accent); color:white;}
+.stock-warning{ color:#f97316;}
+.price-now{ color:#111827;}

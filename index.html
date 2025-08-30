@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paw Smile</title>
+
+    <!-- React + Babel (kept for easy local double-click testing) -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Tailwind CDN -->
+    <script defer src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Central color variables -->
+    <link rel="stylesheet" href="colors.css" />
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body class="bg-[var(--bg)] text-[var(--text)]">
+    <div id="root"></div>
+
+    <!-- IMPORTANT: tell Babel to use the React preset when loading external JSX -->
+    <script type="text/babel" data-presets="react" src="js/app.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+/* Optional theme tweaks layered on top of Tailwind */
+html,body{height:100%;}
+body{font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";}
+.elev-1{box-shadow:0 1px 4px rgba(0,0,0,.06),0 4px 24px rgba(0,0,0,.05);}
+.clamp-1{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;}
